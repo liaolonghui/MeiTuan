@@ -1,7 +1,7 @@
 # mt-app
 
-> My epic Nuxt.js project
-使用nuxt.js,vue2,koa2,mongodb.redis,elementUI,axios,sass(sass-loader,node-sass)等构建的仿美团网。
+> My epic Nuxt.js project   
+使用nuxt.js、vue2、koa2、mongodb、redis、elementUI、axios、sass(sass-loader,node-sass)等构建的仿美团网。
 
 ## Build Setup
 
