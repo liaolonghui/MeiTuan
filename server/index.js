@@ -1,7 +1,6 @@
 const Koa = require('koa')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
-const cityInterface = require('./interface/city')
 
 const app = new Koa()
 
@@ -24,8 +23,6 @@ async function start () {
     const builder = new Builder(nuxt)
     await builder.build()
   }
-
-  app.use(cityInterface.routes(),cityInterface.allowedMethods())
 
   app.use((ctx) => {
     ctx.status = 200
