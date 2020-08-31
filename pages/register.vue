@@ -85,7 +85,7 @@ export default {
             }
         }
     },
-    layout: 'blank',
+    layout:'blank',
     methods:{
         sendMsg:function(){
 

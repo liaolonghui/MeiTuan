@@ -34,7 +34,7 @@
           @click="login">登录</el-button>
       </div>
     </div>
-    <footer class="footer" style="position:absolute;left:275px;bottom:120px;">
+    <footer class="footer" style="position:absolute;left:275px;bottom:121px;">
         <div class="copyright">
             <p style="color:gray;font-size:12px;">
                 ©<span>2020</span>

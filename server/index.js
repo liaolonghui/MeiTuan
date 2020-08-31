@@ -23,6 +23,7 @@ async function start () {
     const builder = new Builder(nuxt)
     await builder.build()
   }
+  
 
   app.use((ctx) => {
     ctx.status = 200
