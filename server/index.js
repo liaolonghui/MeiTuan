@@ -10,6 +10,7 @@ const json = require('koa-json')
 const dbConfig = require('./dbs/config')
 const passport = require('./interface/utils/passport')
 const users = require('./interface/users')
+const geo = require('./interface/geo')
 
 const app = new Koa()
 
@@ -57,6 +58,7 @@ async function start () {
   
   //router
   app.use(users.routes(),users.allowedMethods())
+  app.use(geo.routes(),geo.allowedMethods())
 
   app.use((ctx) => {
     ctx.status = 200
