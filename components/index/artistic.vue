@@ -49,11 +49,231 @@ export default {
     return {
       kind: 'all',
       list: {
-        all: [],
-        part: [],
-        spa: [],
-        movie: [],
-        travel: []
+        all: [
+          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+        ],
+        part: [
+          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+        ],
+        spa: [
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+        ],
+        movie: [
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+                    {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+
+        ],
+        travel: [
+          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },          {
+            title: "来点烤肉（世茂广场店）",
+            img:
+              "//p0.meituan.net/msmerchant/e0f687f4444bb9492e57d096ef235cf3106632.jpg@460w_260h_1e_1c",
+            pos: "来点烤肉双人餐，提供免费WiFi",
+            price: "118"
+          },
+
+          {
+            title: "南昌绿地华邑酒店",
+            img:
+              "//p1.meituan.net/tdchotel/678acaeb6775a6b2b774c1465baa1afe1822568.jpg@460w_260h_1e_1c",
+            pos: "新客超值优惠、酒店套餐、发票推荐",
+            price: "941"
+          },
+          {
+            title: "小飛甲",
+            img:
+              "//p0.meituan.net/msmerchant/4982493fe0dd39045f8823555012f387185973.png@460w_260h_1e_1c",
+            pos: "3-4人餐，提供免费WiFi",
+            price: "219"
+          },
+        ]
       }
     }
   },
@@ -63,6 +283,7 @@ export default {
     }
   },
   async mounted(){
+    //接口有问题待解决
     // let {status, data:{count, pois}} = await this.$axios.get('/search/resultsByKeywords', {
     //   params: {
     //     keyword: '景点',
@@ -88,35 +309,35 @@ export default {
   },
   methods: {
     over: async function(e) {
-      // let dom = e.target
-      // let tag = dom.tagName.toLowerCase()
-      // let self = this
-      // if (tag === 'dd') {
-      //   this.kind = dom.getAttribute('kind')
-      //   let keyword = dom.getAttribute('keyword')
-      //   let {status, data:{count, pois}} = await self.$axios.get('/search/resultsByKeywords', {
-      //     params: {
-      //       keyword,
-      //       city: this.$store.state.geo.position.city
-      //     }
-      //   })
-      //   if(status === 200 && count > 0) {
-      //     let r = pois.filter((item)=>item.photos.length).map((item, index)=>{
-      //       return {
-      //         title: item.name,
-      //         pos: item.type.split(';')[0],
-      //         price: item.biz_ext.cost || '暂无',
-      //         img: item.photos[0].url,
-      //         url: '//abc.com'
-      //       }
-      //     })
-      //     this.list[this.kind]=r.slice(0,9);
-      //   }
-      //   else
-      //   {
-      //     this.list[this.kind]= [];
-      //   }
-      //}
+      let dom = e.target
+      let tag = dom.tagName.toLowerCase()
+      let self = this
+      if (tag === 'dd') {
+        this.kind = dom.getAttribute('kind')
+        // let keyword = dom.getAttribute('keyword')
+        // let {status, data:{count, pois}} = await self.$axios.get('/search/resultsByKeywords', {
+        //   params: {
+        //     keyword,
+        //     city: this.$store.state.geo.position.city
+        //   }
+        // })
+        // if(status === 200 && count > 0) {
+        //   let r = pois.filter((item)=>item.photos.length).map((item, index)=>{
+        //     return {
+        //       title: item.name,
+        //       pos: item.type.split(';')[0],
+        //       price: item.biz_ext.cost || '暂无',
+        //       img: item.photos[0].url,
+        //       url: '//abc.com'
+        //     }
+        //   })
+        //   this.list[this.kind]=r.slice(0,9);
+        // }
+        // else
+        // {
+        //   this.list[this.kind]= [];
+        // }
+      }
     }
   },
 }

@@ -1,6 +1,5 @@
 const Router = require('koa-router')
 const axios = require('./utils/axios')
-const { listenerCount } = require('koa')
 const City = require('../dbs/models/city')
 const Province = require('../dbs/models/province')
 const Menu = require('../dbs/models/menus')
@@ -15,8 +14,8 @@ router.get('/getPosition',async (ctx)=>{
     //接口有问题，待解决
     //let {status,data:{province,city}} = await axios.get(`http://cp-tools.cn/geo/getPosition?sign=${sign}`)
     let status = 200,
-    province = '江西',
-    city = '南昌'
+    province = '海南',
+    city = '三亚'
     if(status===200){
         ctx.body = {
             province,

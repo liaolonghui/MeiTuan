@@ -10,18 +10,14 @@
                     <button class="el-button el-button--primary"><i class="el-icon-search"></i></button>
                     <dl class="hotPlace" v-if="isHotPlace">
                         <dt>热门搜索</dt>
-                        <dd v-for="(item,idx) in hotPlace" :key="idx">{{item}}</dd>
+                        <dd v-for="(item,idx) in $store.state.home.hotPlace.slice(0,5)" :key="idx">{{item.name}}</dd>
                     </dl>
                     <dl class="searchList" v-if="isSearchList">
-                        <dd v-for="(item,idx) in searchList" :key="idx">{{item}}</dd>
+                        <dd v-for="(item,idx) in searchList" :key="idx">{{item.name}}</dd>
                     </dl>
                 </div>
                 <p class="suggest">
-                    <a href="">故宫博物院</a>
-                    <a href="">故宫博物院</a>
-                    <a href="">故宫博物院</a>
-                    <a href="">故宫博物院</a>
-                    <a href="">故宫博物院</a>
+                    <a href="" v-for="(item,idx) in $store.state.home.hotPlace.slice(0,5)" :key="idx">{{item.name}}</a>
                 </p>
                 <ul class="nav">
                     <li>
@@ -53,20 +49,15 @@
 </template>
 
 <script>
+import _ from 'lodash'
+
 export default {
     data(){
         return{
             search: '',
             isFocus: false,
-            hotPlace: [
-                '还没有数据呢',
-                '等后面使用真实数据'
-            ],
-            searchList: [
-                '虚拟数据',
-                '写死的数据',
-                '还未引入真数据'
-            ],
+            hotPlace: [],
+            searchList: [],
         }
     },
     computed:{
@@ -87,9 +78,18 @@ export default {
                 self.isFocus = false
             },200)
         },
-        input:function(){
-            console.log('input')
-        }
+        input:_.debounce(async function(){
+            let self = this
+            let city = self.$store.state.geo.position.city.replace('市','')
+            self.searchList = []
+            let {satus,data:{top}} = await self.$axios.get('/search/top',{
+                params:{
+                    input: self.search,
+                    city
+                }
+            })
+            self.searchList = top.slice(0,10)
+        },300)
     }
 }
 </script>
